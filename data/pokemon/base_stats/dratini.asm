@@ -9,8 +9,8 @@
 	dn FEMALE_50, 7 ; gender, step cycles to hatch
 	dn 5, 5 ; frontpic dimensions
 	db SHED_SKIN ; ability 1
-	db SHED_SKIN ; ability 2
-	db MARVEL_SCALE ; hidden ability
+	db MULTISCALE ; ability 2
+	db MULTISCALE ; hidden ability
 	db SLOW ; growth rate
 	dn AMPHIBIAN, REPTILE ; egg groups
 
