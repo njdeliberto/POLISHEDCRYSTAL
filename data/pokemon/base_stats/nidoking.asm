@@ -9,7 +9,7 @@
 	dn ALL_MALE, 3 ; gender, step cycles to hatch
 	dn 7, 7 ; frontpic dimensions
 	db POISON_POINT ; ability 1
-	db RIVALRY ; ability 2
+	db SHEER_FORCE ; ability 2
 	db SHEER_FORCE ; hidden ability
 	db MEDIUM_SLOW ; growth rate
 	dn MONSTER, FIELD ; egg groups
