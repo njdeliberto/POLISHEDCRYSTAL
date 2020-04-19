@@ -144,7 +144,7 @@ endc
 	move SCREECH,      EFFECT_DEFENSE_DOWN_2,      0, NORMAL,     85, 40,   0, STATUS
 	move DOUBLE_TEAM,  EFFECT_EVASION_UP,          0, NORMAL,    100, 15,   0, STATUS
 	move RECOVER,      EFFECT_HEAL,                0, NORMAL,    100, 10,   0, STATUS
-	move ROCK_BLAST,   EFFECT_MULTI_HIT,          25, ROCK,       90, 25,   0, PHYSICAL
+	move ROCK_BLAST,   EFFECT_MULTI_HIT,          25, ROCK,      100, 25,   0, PHYSICAL
 	move MINIMIZE,     EFFECT_MINIMIZE,            0, NORMAL,    100, 10,   0, STATUS
 	move SMOKESCREEN,  EFFECT_ACCURACY_DOWN,       0, NORMAL,    100, 20,   0, STATUS
 	move CONFUSE_RAY,  EFFECT_CONFUSE,             0, GHOST,     100, 10,   0, STATUS
@@ -221,7 +221,7 @@ endc
 	move THIEF,        EFFECT_THIEF,              60, DARK,      100, 25, 100, PHYSICAL
 	move WILL_O_WISP,  EFFECT_BURN,                0, FIRE,       85, 15,   0, STATUS
 	move ZEN_HEADBUTT, EFFECT_FLINCH_HIT,         80, PSYCHIC,    90, 15,  20, PHYSICAL
-	move FACADE,       EFFECT_CONDITIONAL_BOOST,  70, NORMAL,    100, 20,   0, PHYSICAL
+	move FACADE,       EFFECT_CONDITIONAL_BOOST,  70, FLYING,    100, 20,   0, PHYSICAL
 	move FLAME_WHEEL,  EFFECT_FLAME_WHEEL,        60, FIRE,      100, 25,  10, PHYSICAL
 	move HYPER_VOICE,  EFFECT_NORMAL_HIT,         90, NORMAL,    100, 10,   0, SPECIAL
 	move CURSE,        EFFECT_CURSE,               0, GHOST,     100, 10,   0, STATUS
