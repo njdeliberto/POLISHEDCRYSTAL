@@ -12,7 +12,7 @@
 if DEF(FAITHFUL)
 	db INNER_FOCUS ; ability 2
 else
-	db MARVEL_SCALE ; ability 2
+	db MULTISCALE ; ability 2
 endc
 	db MULTISCALE ; hidden ability
 	db SLOW ; growth rate
