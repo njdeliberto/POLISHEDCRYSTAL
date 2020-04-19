@@ -565,7 +565,7 @@ SandslashAlolanEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINA
+	db EVOLVE_LEVEL, 10, NIDORINA
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, SCRATCH
@@ -614,7 +614,7 @@ NidoqueenEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
+	db EVOLVE_LEVEL, 10, NIDORINO
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
@@ -3172,7 +3172,7 @@ MoltresEvosAttacks:
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:
-	db EVOLVE_LEVEL, 30, DRAGONAIR
+	db EVOLVE_LEVEL, 12, DRAGONAIR
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -3191,7 +3191,7 @@ DratiniEvosAttacks:
 	db 0 ; no more level-up moves
 
 DragonairEvosAttacks:
-	db EVOLVE_LEVEL, 55, DRAGONITE
+	db EVOLVE_LEVEL, 25, DRAGONITE
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
